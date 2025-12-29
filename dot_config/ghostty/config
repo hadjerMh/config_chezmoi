@@ -1,0 +1,10 @@
+theme = Peppermint
+
+# Font
+font-family = "JetBrainsMono Nerd Font"
+font-style = Regular
+
+font-size = 16
+background-opacity = 0.75
+background-blur-radius = 20
+clipboard-paste-protection = false

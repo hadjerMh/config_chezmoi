@@ -1,0 +1,117 @@
+packages:
+  darwin:
+    brews:
+      - git
+      - neovim
+      - eza
+      - python
+      - bpytop
+      - zsh
+      - tmux
+      - fzf
+      - bat
+      - fd
+      - ripgrep
+      - tldr
+      - stow
+    casks:
+      - google-chrome
+
+  arch:
+    # Common packages for all Arch Linux systems (including WSL)
+    packages:
+      - git
+      - chromium
+      - cargo
+      - neovim
+      - python-pip
+      - bpytop
+      - zsh
+      - tmux
+      - copyq
+      - git
+      - lazygit
+      - lazydocker
+      - eza
+      - fzf
+      - bat
+      - fd
+      - lsd
+      - ripgrep
+      - playerctl
+      - pavucontrol
+      - pipewire-alsa
+      - pipewire-pulse
+      - wireplumber
+      - alsa-utils
+      - wine
+      - swww
+      - dolphin
+      - compton
+      - openssh
+      - yazi
+      - uv
+      - luarocks
+      - jre-openjdk
+      - tectonic
+      - archlinux-xdg-menu
+
+    # Packages only for non-WSL Arch Linux systems (GUI applications, games, etc.)
+    non_wsl_packages:
+      - bitwarden-bin
+      - vicinae
+      - swww
+      - awww
+      - docker
+      - ags-hyprpanel-git
+      - steam
+      - obsidian
+      - vlc
+      - wine
+      - hyprpaper
+      - hyprlock
+      - hyprland
+      - hyprshot
+      - fuzzel-git
+      - slurp
+      - grimblast-git
+      - xdg-desktop-portal-hyprland
+      - sddm-theme-sugar-candy
+      - sunshine
+      - ollama
+      - libreoffice-fresh
+      - prismlauncher-qt5
+      - ttf-meslo-nerd
+      - ttf-material-symbols-variable-git
+      - awesome-terminal-fonts
+      - noto-fonts
+      - noto-fonts-emoji
+      - overskride
+      - ghostty
+      - xsensors
+      - nmtui
+      - nm-connection-editor
+      - steamtinkerlaunch
+      - vesktop
+      - opencode
+      - lutris
+      - cursor-cli
+      - cursor-bin
+      - lxappearance
+      - gammastep
+      - difftastic
+      - python-pywal16
+
+  ubuntu:
+    packages:
+      - git
+      - neovim
+      - python3-pip
+      - bpytop
+      - zsh
+      - tmux
+      - fzf
+      - bat
+      - fd-find
+      - ripgrep
+      - tldr
