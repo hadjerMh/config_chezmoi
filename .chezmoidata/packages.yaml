@@ -20,6 +20,8 @@ packages:
   arch:
     # Common packages for all Arch Linux systems (including WSL)
     packages:
+      - postgresql
+      - mongodb
       - git
       - chromium
       - cargo
